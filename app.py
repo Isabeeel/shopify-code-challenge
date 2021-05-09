@@ -41,5 +41,4 @@ def upload(filename):
 
 
 if __name__ == "__main__":
-    app.config["SECRET_KEY"] = "ITSASECRET"
     app.run(debug=True, port=8080)
